@@ -5,7 +5,8 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <a href="/signup">Click me</a>
+      <h1 className="text-center text-4xl"> Home page</h1>
+      <a className="mx-[48vw]" href="/signup">Click me</a>
       <Footer />
     </div>
   )
